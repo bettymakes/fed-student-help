@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* The magic happens here Chris :D!! */
+.hero {
+  background-image: url('http://eskipaper.com/images/cute-pokemon-backgrounds-1.jpg'); /* Link to your image */
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Set the height to whatever you want it to be. I just chose 500px for this example. */
+  background-color: yellow;
+}
